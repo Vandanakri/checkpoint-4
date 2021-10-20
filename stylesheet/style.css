@@ -1229,12 +1229,12 @@ h6 {
     flex-direction: column;
   }
   #about  {
-    margin-top: 55rem;
+    margin-top: 50rem;
   }
 
   .header-nav {
     display: none;
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     bottom: 0;
@@ -1242,7 +1242,7 @@ h6 {
     background-color: rgba(0, 0, 0, 0.8); 
     height: 100vh;
     padding-top: 12rem;
-    z-index: 99;
+    /* z-index: 99; */
     
   }
   .nav-li {
@@ -1268,6 +1268,13 @@ h6 {
     font-size: 2rem;
     color: var(--accent);
     z-index: 99;
+    position: fixed;
+  }
+  .bars {
+    right: 2rem;
+  }
+  .brand {
+    margin-top: -1rem;
   }
   
   .choose {
